@@ -1,0 +1,114 @@
+:root {
+    --oscuro: #000000;
+    --blanco: #ffffff;
+    --verde_claro: #71ff2a;
+    --verde_oscuro: #438e18;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+
+/* Globales */
+
+.contenedor {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+/* Navbar */
+
+.navbar-prin {
+    margin: 2.4rem auto;
+}
+
+.navbar {
+    background-color: var(--oscuro);
+    padding: 1.2rem 0;
+}
+
+.nav-nav a {
+    color: var(--blanco);
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.pag-act {
+    color: var(--verde_claro)!important;
+}
+
+.pag-act:hover {
+    color: var(--blanco)!important;
+}
+
+img {
+    width: 90%;
+}
+
+
+/* Siguient Paret */
+
+.hero {
+    background-image: url(../img/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60rem;
+}
+
+.principal {
+    text-align: center;
+}
+
+.principal img {
+    text-align: center;
+}
+
+.principal p {
+    color: var(--blanco);
+    text-transform: uppercase;
+    margin: 2.4rem 0;
+}
+
+.principal a {
+    color: var(--blanco);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: .8rem 1.8rem;
+    border: 1px solid #ffffff;
+}
+
+.principal a:hover {
+    color: var(--verde_claro);
+    border: none;
+}
+
+
+/* Servicios */
+
+h3 {
+    text-align: center;
+    color: var(--blanco);
+    border-bottom: 1px solid #ffffff;
+    text-decoration-line: initial;
+}
+
+.servicios {
+    background-image: url(/img/home-svr-bg.png);
+}
